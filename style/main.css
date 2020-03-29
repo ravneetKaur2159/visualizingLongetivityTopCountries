@@ -52,3 +52,9 @@ select {
   fill: #777;
   font-weight: bold;
 }
+
+.global{
+  font-style: italic;
+  margin-left: 15%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

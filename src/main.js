@@ -89,6 +89,44 @@ function updateBar(d, i) {
 }
 
 function updateLabel(d) {
+  let texValue = "";
+  if(d.year == 2000){
+    texValue = 'Global life expectancy : 67.6 years';
+  }else if(d.year == 2001){
+    texValue = 'Global life expectancy : 68.1 years';
+  }else if(d.year == 2002){
+    texValue = 'Global life expectancy : 68.3 years';
+  }else if(d.year == 2003){
+    texValue = 'Global life expectancy : 68.3 years';
+  }else if(d.year == 2004){
+    texValue = 'Global life expectancy : 68.7 years';
+  }else if(d.year == 2005){
+    texValue = 'Global life expectancy : 68.9 years';
+  }else if(d.year == 2006){
+    texValue = 'Global life expectancy : 69.3 years';
+  }else if(d.year == 2007){
+    texValue = 'Global life expectancy : 69.6 years';
+  }else if(d.year == 2008){
+    texValue = 'Global life expectancy : 69.9 years';
+  }else if(d.year == 2009){
+    texValue = 'Global life expectancy : 70.2 years';
+  }else if(d.year == 2010){
+    texValue = 'Global life expectancy : 70.6 years';
+  }else if(d.year == 2011){
+    texValue = 'Global life expectancy : 70.9 years';
+  }else if(d.year == 2012){
+    texValue = 'Global life expectancy : 71.2 years';
+  }else if(d.year == 2013){
+    texValue = 'Global life expectancy : 71.5 years';
+  }else if(d.year == 2014){
+    texValue = 'Global life expectancy : 71.7 years';
+  }else if(d.year == 2015){
+    texValue = 'Global life expectancy : 71.9 years';
+  }else if(d.year == 2016){
+    texValue = 'Global life expectancy : 72.2 years';
+  }
+  d3.select(".global").text(texValue);
+
   var el = d3.select(this)
     .select("text");
 
